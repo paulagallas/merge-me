@@ -12,7 +12,9 @@ namespace MergeMe
 
         public string LastName { get; set; }
 
-        public string FullName { get => Name.ToUpper() + " " + LastName.ToUpper(); } 
+
+        public string FullName { get => $"{Name.toUpper()} {LastName.toUpper()}"; } 
+
 
     }
 }
